@@ -76,7 +76,7 @@ public class Employee {
 		this.email = email;
 	}
 
-
+// toString method to show on console
 	@Override
 	public String toString() {
 		return "Employee [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", email=" + email
