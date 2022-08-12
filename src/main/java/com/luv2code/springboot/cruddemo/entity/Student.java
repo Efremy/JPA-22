@@ -6,6 +6,7 @@ public class Student {
     private String name;
     private String lastName;
     private String email;
+    private Employee employee;
 
     //Default Constructor
     public Student(){
