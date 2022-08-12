@@ -18,7 +18,7 @@ public class Student {
         this.lastName = lastName;
         this.email = email;
     }
-
+// Getters and setters
 
     public String getName() {
         return name;
