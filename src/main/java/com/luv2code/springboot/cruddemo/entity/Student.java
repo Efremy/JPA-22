@@ -18,7 +18,7 @@ public class Student {
         this.lastName = lastName;
         this.email = email;
     }
-
+// Getters and setters
 
     public String getName() {
         return name;
@@ -44,6 +44,8 @@ public class Student {
         this.email = email;
     }
 
+
+    //To string method overriden
     @Override
     public String toString() {
         return "Student{" +

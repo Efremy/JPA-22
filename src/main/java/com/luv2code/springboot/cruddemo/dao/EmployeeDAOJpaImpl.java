@@ -21,7 +21,7 @@ public class EmployeeDAOJpaImpl implements EmployeeDAO {
 	}
 	@Override
 	public List<Employee> findAll() {
-		//create a query
+		//create a query HQL query
 		Query theQuery =entityManager.createQuery("from Employee");
 		// execute query and get the result
 		List<Employee> employee =theQuery.getResultList();
