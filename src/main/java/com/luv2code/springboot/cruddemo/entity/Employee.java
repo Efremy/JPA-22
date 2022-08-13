@@ -40,7 +40,7 @@ public class Employee {
 	public int getId() {
 		return id;
 	}
-
+//
 
 	public void setId(int id) {
 		this.id = id;
@@ -76,15 +76,13 @@ public class Employee {
 		this.email = email;
 	}
 
-// toString method to show on console
+// Define toString method to show on console
 	@Override
 	public String toString() {
 		return "Employee [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", email=" + email
 				+ "]";
 	}
 	
-	
-	
-	//define toString
+
 	
 }
