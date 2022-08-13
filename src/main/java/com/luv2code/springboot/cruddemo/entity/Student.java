@@ -14,10 +14,11 @@ public class Student {
     }
     //Constructor from fields
 
-    public Student(String name, String lastName, String email) {
+    public Student(String name, String lastName, String email, Employee employee) {
         this.name = name;
         this.lastName = lastName;
         this.email = email;
+        this.employee = employee;
     }
 // Getters and setters
 
@@ -45,6 +46,13 @@ public class Student {
         this.email = email;
     }
 
+    public Employee getEmployee() {
+        return employee;
+    }
+
+    public void setEmployee(Employee employee) {
+        this.employee = employee;
+    }
 
     //To string method overriden
     @Override
@@ -52,6 +60,7 @@ public class Student {
         return "Student{" +
                 "name='" + name + '\'' +
                 ", lastName='" + lastName + '\'' +
+                ", employee='" + employee + '\'' +
                 ", email='" + email + '\'' +
                 '}';
     }
