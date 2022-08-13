@@ -20,7 +20,7 @@ public class Student {
         this.email = email;
         this.department = department;
     }
-// Getters and setters
+// Getters and setter
 
     public String getName() {
         return name;
@@ -29,7 +29,7 @@ public class Student {
     public void setName(String name) {
         this.name = name;
     }
-
+// test
     public String getLastName() {
         return lastName;
     }
