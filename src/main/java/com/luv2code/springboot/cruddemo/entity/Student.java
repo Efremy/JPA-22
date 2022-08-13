@@ -6,7 +6,7 @@ public class Student {
     private String name;
     private String lastName;
     private String email;
-    private Employee employee;
+    private String department;
 
     //Default Constructor
     public Student(){
@@ -14,11 +14,11 @@ public class Student {
     }
     //Constructor from fields
 
-    public Student(String name, String lastName, String email, Employee employee) {
+    public Student(String name, String lastName, String email, String department) {
         this.name = name;
         this.lastName = lastName;
         this.email = email;
-        this.employee = employee;
+        this.department = department;
     }
 // Getters and setters
 
@@ -46,12 +46,12 @@ public class Student {
         this.email = email;
     }
 
-    public Employee getEmployee() {
-        return employee;
+    public String getDepartment() {
+        return department;
     }
 
-    public void setEmployee(Employee employee) {
-        this.employee = employee;
+    public void setDepartemnt(String department) {
+        this.department = department;
     }
 
     //To string method overriden
@@ -60,7 +60,7 @@ public class Student {
         return "Student{" +
                 "name='" + name + '\'' +
                 ", lastName='" + lastName + '\'' +
-                ", employee='" + employee + '\'' +
+                ", department='" + department + '\'' +
                 ", email='" + email + '\'' +
                 '}';
     }
