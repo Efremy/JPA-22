@@ -11,7 +11,7 @@ import javax.persistence.Table;
 @Table(name="employee")
 public class Employee {
 
-	//define fields
+	//define all fields
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	@Column(name="id")
@@ -24,11 +24,11 @@ public class Employee {
 	private String email;
 	 
 	
-	//define constructor
+	//define no arg constructor
 	public Employee() {
 		
 	}
-
+//Define constructor from fields
 
 	public Employee(String firstName, String lasstName, String email) {
 		this.firstName = firstName;
@@ -36,7 +36,7 @@ public class Employee {
 		this.email = email;
 	}
 
-	//define getter/setter
+	//define getter and setter
 	public int getId() {
 		return id;
 	}
