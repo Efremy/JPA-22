@@ -1,6 +1,12 @@
 package testingpackage;
 
 public class BalanceChecker {
+
+    public BalanceChecker(AmountCalculator amount, int balance) {
+        this.amount = amount;
+        this.balance = balance;
+    }
+
     private AmountCalculator amount;
     private int balance;
 
