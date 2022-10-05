@@ -10,5 +10,6 @@ public class DemoRunnerAppTest {
     public static void main(String[] anrgs){
         //BalanceChecker balanceChecker = new BalanceChecker();
         System.out.println("Good testing");
+        System.out.println(6+34);
     }
 }
