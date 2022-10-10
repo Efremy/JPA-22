@@ -3,6 +3,7 @@ package testingpackage;
 import org.springframework.beans.factory.annotation.Autowired;
 
 public class DemoRunnerAppTest {
+
 //    @Autowired
 //    private BalanceChecker balanceChecker;
 //    @Autowired
