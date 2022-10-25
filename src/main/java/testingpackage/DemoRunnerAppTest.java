@@ -1,8 +1,12 @@
 package testingpackage;
 
-import org.springframework.beans.factory.annotation.Autowired;
-
 public class DemoRunnerAppTest {
+    public static void main(String[] anrgs){
+        //printing test
+        System.out.println("Good testing");
+        //need to add some new features here
+    }
+
 
 //    @Autowired
 //    private BalanceChecker balanceChecker;
@@ -12,4 +16,5 @@ public class DemoRunnerAppTest {
 //
 //        System.out.println("Good testing");
 //    }
+
 }
