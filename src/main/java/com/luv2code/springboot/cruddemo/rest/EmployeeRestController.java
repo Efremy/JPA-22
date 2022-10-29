@@ -27,13 +27,13 @@ public class EmployeeRestController {
 	public EmployeeRestController(EmployeeService theEmployeeService) {
 		employeeService=theEmployeeService;
 	}
-
+//http://localhost:8080/api/employees
 	// Expose "/employee" and return list of employees
 	@GetMapping("/employees")
 	public List<Employee> findAll(){
 		return employeeService.findAll();
 	}
-	
+	//http://localhost:8080/api/employees/1
 	// Add a mapping for get /employees/{employeeId} by employee id
 	@GetMapping("/employees/{employeeId}")
 	public Employee getEmployee(@PathVariable int employeeId) {
